@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	_ "./statik"
+	_ "github.com/kojisaiki/webappsample01/public/statik"
 	"github.com/rakyll/statik/fs"
 )
 
