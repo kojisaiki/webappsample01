@@ -1,11 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
-	"fmt"
 
 	_ "github.com/kojisaiki/webappsample01/statik"
 	"github.com/rakyll/statik/fs"
