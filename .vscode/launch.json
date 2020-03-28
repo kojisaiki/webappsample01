@@ -9,8 +9,6 @@
       "type": "go",
       "request": "launch",
       "mode": "auto",
-      "host": "127.0.0.1",
-      "port": 8080,
       "program": "${fileDirname}",
       "env": {},
       "args": []

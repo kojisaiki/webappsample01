@@ -21,7 +21,7 @@ func main() {
 
 	fmt.Println("new")
 
-	f, err := statikFS.Open("index.html")
+	f, err := statikFS.Open("/index.html")
 	if err != nil {
 		log.Fatal(err)
 	}
